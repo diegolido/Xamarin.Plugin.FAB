@@ -162,6 +162,7 @@ namespace FAB.Droid
             }
             else
             {
+                this.Control.BackgroundTintList = ColorStateList.ValueOf(this.Element.NormalColor.ToAndroid());
                 this.UpdateBackgroundColor();
             }
         }
